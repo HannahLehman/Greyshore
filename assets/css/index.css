@@ -10,7 +10,7 @@ Header font-family: 'PT Serif', serif;
 Subheader, Paragraph font-family: 'Titillium Web', sans-serif; 
 Link font-family: 'Puritan', sans-serif;
  */
- 
+
 html,
 body {
   height: 100%;
@@ -19,13 +19,13 @@ body {
   margin: 0 auto;
 }
 .content-row {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 section {
   padding: 100px 0;
 }
 .bg-gray {
-  background-color: #f5f5f5;
+  background-color: #e9e9e9;
 }
 .bg-dark {
   color: white;
@@ -124,7 +124,6 @@ p {
 p.lead {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
   font-size: 24px;
 }
 h1,
@@ -135,7 +134,6 @@ h5,
 h6 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
 }
 @media (min-width: 481px) {
   h1 {
@@ -291,7 +289,6 @@ header .brand-name {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 55px;
   line-height: 55px;
-  text-transform: uppercase;
   font-weight: 900;
   margin-top: 15px;
 }
@@ -450,7 +447,6 @@ aside.cta-quote span.quote {
 .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .name {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
 }
 .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author hr.colored {
   margin: 3px auto;
@@ -507,7 +503,7 @@ aside.cta-quote span.quote {
   margin-top: 0;
 }
 .about-content {
-  padding: 30px;
+  padding: 5px;
 }
 .about-carousel .item {
   padding: 15px;
@@ -535,7 +531,7 @@ aside.cta-quote span.quote {
   margin: 0;
 }
 .about-carousel .item .caption ul.social {
-  margin-top: 5px;
+  margin-top: 0px;
 }
 .about-carousel .item .caption ul.social li a {
   color: rgba(255, 255, 255, 0.7);
@@ -652,7 +648,6 @@ aside.cta-quote span.quote {
   margin-bottom: 5px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
 }
 .portfolio-carousel .item .project-details .project-description {
   display: block;
@@ -803,7 +798,6 @@ aside.cta-quote span.quote {
   cursor: pointer;
   padding: 10px 15px;
   margin: 2px;
-  text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 1px;
   font-size: 12px;
@@ -1056,7 +1050,6 @@ footer.footer .copyright p.small {
 .btn {
   border-radius: 0;
   padding: 12px 18px;
-  text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 1px;
 }
@@ -1095,17 +1088,14 @@ body.modern h5,
 body.modern h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 body.modern p.lead {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 body.modern header .brand-name {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 body.modern .about-carousel .owl-controls .owl-prev,
 body.modern .about-carousel .owl-controls .owl-next {
@@ -1114,12 +1104,10 @@ body.modern .about-carousel .owl-controls .owl-next {
 body.modern .portfolio-carousel .item .project-details .project-name {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 body.modern .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .name {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 body.modern .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.modern .testimonials .testimonials-carousel .owl-controls .owl-next {
@@ -1137,17 +1125,14 @@ body.vintage h5,
 body.vintage h6 {
   font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
 }
 body.vintage p.lead {
   font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
 }
 body.vintage header .brand-name {
   font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
 }
 body.vintage .about-carousel .owl-controls .owl-prev,
 body.vintage .about-carousel .owl-controls .owl-next {
@@ -1156,14 +1141,69 @@ body.vintage .about-carousel .owl-controls .owl-next {
 body.vintage .portfolio-carousel .item .project-details .project-name {
   font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
 }
 body.vintage .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .name {
   font-family: "Sanchez", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
 }
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
+}
+
+
+
+/*****
+NAVBAR
+*****/
+body {
+  color: #666666;
+}
+.navbar-inverse {
+  background-color: #c03a23;
+}
+.navbar {
+  font-family: 'Puritan', sans-serif;
+  font-size: 18px;
+  color: #c03a23;
+}
+
+
+
+
+
+/*****
+HEADER/JUMBOTRON
+*****/
+
+
+
+/*****
+ABOUT
+*****/
+
+#about h1 {
+  font-family: 'PT Serif', serif;
+}
+.about-content h3 {
+  font-family: 'Titillium Web', sans-serif; 
+  font-weight: 300;
+  font-style: italic;
+}
+.about-content p {
+  font-family: 'Titillium Web', sans-serif; 
+  font-weight: 400;
+}
+
+/*****
+CONTACT
+*****/
+h2 {
+  font-family: 'PT Serif', serif;
+}
+#contact {
+  font-family: 'Titillium Web', sans-serif; 
+  font-weight: 400;
+  color: white;
+  background-color: #c03a23;
 }
