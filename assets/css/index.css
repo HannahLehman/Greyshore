@@ -22,7 +22,7 @@ body {
   margin-top: 0px;
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .bg-gray {
   background-color: #e9e9e9;
@@ -955,6 +955,7 @@ aside.cta-quote span.quote {
   background: none;
   box-shadow: none !important;
   resize: none;
+  color: white;
 }
 .floating-label-form-group label {
   display: block;
@@ -981,10 +982,10 @@ aside.cta-quote span.quote {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #ef4035;
+  color: #ffffff;
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid #ffffff;
 }
 footer.footer {
   color: rgba(255, 255, 255, 0.7);
@@ -1010,7 +1011,10 @@ footer.footer .contact-details {
 footer.footer .social {
   margin-bottom: 75px;
 }
-footer.footer .copyright p.small {
+footer.footer .copyright p {
+  font-family: 'Titillium Web', sans-serif; 
+  font-weight: 400;
+  color: white;
   font-size: 14px;
 }
 @media (min-width: 1025px) {
@@ -1033,8 +1037,8 @@ footer.footer .copyright p.small {
   outline: none;
 }
 .btn-outline-dark {
-  color: #222222;
-  border: 1px solid #222222;
+  color: #e9e9e9;
+  border: 1px solid #666666;
   background: transparent;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -1043,8 +1047,8 @@ footer.footer .copyright p.small {
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
   color: white;
-  background: #ef4035;
-  border-color: #ef4035;
+  background: #c03a23;
+  border-color: none;
   outline: none;
 }
 .btn {
@@ -1189,15 +1193,23 @@ ABOUT
   font-family: 'Titillium Web', sans-serif; 
   font-weight: 300;
   font-style: italic;
+  font-size: 32px;
+  text-align: left;
+  color: #c03a23;
 }
 .about-content p {
   font-family: 'Titillium Web', sans-serif; 
   font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
 }
+
+
 
 /*****
 CONTACT
 *****/
+
 h2 {
   font-family: 'PT Serif', serif;
 }
@@ -1205,5 +1217,13 @@ h2 {
   font-family: 'Titillium Web', sans-serif; 
   font-weight: 400;
   color: white;
-  background-color: #c03a23;
+  background-color: #666666;
 }
+#contact.form-group input {
+  color: white;
+}
+
+
+
+
+
