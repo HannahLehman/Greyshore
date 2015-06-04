@@ -22,7 +22,10 @@ body {
   margin-top: 0px;
 }
 section {
-  padding: 50px 0;
+  padding: 5% 0;
+}
+#contact {
+  padding: 5% 0;
 }
 .bg-gray {
   background-color: #e9e9e9;
@@ -61,7 +64,7 @@ input.form-control:focus {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-.btn-primary:hover,
+.btn-primary:hover, 
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:active,
@@ -1196,6 +1199,7 @@ ABOUT
   font-size: 32px;
   text-align: left;
   color: #c03a23;
+  margin-top: 0;
 }
 .about-content p {
   font-family: 'Titillium Web', sans-serif; 
